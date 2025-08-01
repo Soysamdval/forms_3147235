@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.formu {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10%;
+}
+
+label {
+    padding: 2%;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.checkbox-group,
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ff00ea;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    color: black;
+    background-color: #48ffff;
+}
+
+.bg-form {
+    background-color: rgb(123, 214, 105);
+    border-radius: 2%;
+}
